@@ -1,0 +1,30 @@
+{
+  "name": "@krew-io/collection",
+  "version": "1.0.0",
+  "description": "A simple collection library similar to @discordjs/collection that adds Array methods to a Map.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "npm i && tsc",
+    "lint": "eslint ./src --ext .ts",
+    "lint:fix": "eslint ./src --ext .ts --fix",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krew-io/collection"
+  },
+  "contributors": ["BR88C", "DamienVesper"],
+  "dependencies": {},
+  "devDependencies": {
+    "@krew-io/eslint-config": "latest",
+    "@types/node": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "eslint": "latest",
+    "typescript": "latest"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  }
+}
