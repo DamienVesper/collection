@@ -1,0 +1,3 @@
+{
+  "extends": "@krew-io/eslint-config"
+}
