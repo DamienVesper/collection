@@ -1,8 +1,0 @@
-node_modules/
-src/
-.github/
-.vscode/
-package-lock.json
-tsconfig.json
-.eslintrc.json
-.gitignore
